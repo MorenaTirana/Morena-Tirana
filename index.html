@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morena Tirana | Home Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar">
+        <h1 class="brand">morena tirana</h1>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links-container">
+            <li class="links-item"><a href="#" class="link active">home</a></li>
+            <li class="links-item"><a href="#project-section" class="link">project</a></li>
+            <li class="links-item"><a href="#about-section" class="link">about</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- home section-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Hi, I'm </span>Morena</span></h1>
+            <p class="profession"> web developer</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Atque laudantium, rerum enim non voluptas officia.</p>
+            <a href="#contact-section" class="btn">contact</a>
+        </div>
+        <img src="img/img1.png" class="image" alt="">
+    </section>
+
+    <!--- about section -->
+    <section class="about" id="about-section">
+        <h2 class="heading"><span class="highlight">about </span> me </span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="img/My foto.png" class="about-image" alt="">
+            </div>
+            <div class="right-col">
+                <p class="about-para"> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Culpa possimus laborum quos expedita a doloremque, saepe hic 
+                    dolores, error, molestias placeat iusto temporibus eligendi ab fuga! 
+                    Delectus assumenda perferendis corrupti?Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Reiciendis similique, dolorum 
+                    necessitatibus suscipit dolores a!
+                </p>
+                <a href="#" class="btn">download cV</a>
+            </div>
+        </div>
+
+        <h2 class="heading"><span class="highlight">Programming </span> languages </span></h2>
+        <div class="separator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #d5be8b">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #000">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #d5be8b">
+                <p class="skill">C++</p>
+            </div>
+            <div class="skill-card" style="--bg: #000">
+                <p class="skill">JavaScript</p>
+            </div>
+            <div class="skill-card large" style="--bg: #d5be8b">
+                <p class="skill">ReactJS</p>
+            </div>
+            <div class="skill-card large" style="--bg: #000">
+                <p class="skill">NodeJS</p>
+            </div>
+            <div class="skill-card" style="--bg: #d5be8b">
+                <p class="skill">Firebase</p>
+            </div>
+            <div class="skill-card" style="--bg: #000">
+                <p class="skill">C#</p>
+            </div>
+            <div class="skill-card" style="--bg: #d5be8b">
+                <p class="skill">Java</p>
+            </div>
+            <div class="skill-card" style="--bg: #000">
+                <p class="skill">Python</p>
+            </div>
+            <div class="skill-card last" style="--bg: #d5be8b">
+                <p class="skill">More</p>
+            </div>
+        </div>
+    </section>
+
+    <!--- project section-->
+    <section class="project" id="project-section">
+        <h2 class="heading">Project<span class="highlight">s</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="filters">
+            <button class="filter-btn active" id="all">all</button>
+            <button class="filter-btn" id="javascript">javaScript</button>
+            <button class="filter-btn" id="ui">ui/ux</button>
+            <button class="filter-btn" id="backend">backend</button>
+            <button class="filter-btn" id="fullstack">fullStack</button>
+        </div>
+
+        <div class="project-container">
+           <!--- <div class="project-card">
+                <img src="img/project (1).png" alt="">
+                <div class="content">
+                    <h1 class="project-name">project 1</h1>
+                    <span class="tags">#javascript</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!---contact form -->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contact <span class="highlight">me</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">contact</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h1 class="footer-heading"><span class="highlight">made with </span> love</span></h1>
+    </footer>
+
+    <script src="project.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
