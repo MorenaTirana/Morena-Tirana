@@ -1,0 +1,96 @@
+.product-name-2 a{
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 55px;
+    transform: translateX(-50%, 30%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-2 a{
+    opacity: 1;
+}
+.product-name-4 a{
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 20px;
+    transform: translateX(-50%, 30%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-4 a{
+    opacity: 1;
+}
+.product-name-5 a{
+    position: absolute;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 10px;
+    transform: translateX(-50%, 30%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-5 a{
+    opacity: 1;
+}
+.product-name-6 a{
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 20px;
+    transform: translateX(-50%, 30%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-6 a{
+    opacity: 1;
+}
+.product-name-7 a{
+    position: absolute;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 25px;
+    transform: translateX(-50%, 30%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-7 a{
+    opacity: 1;
+}
+.product-name-8 a{
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s;
+    text-decoration: none;
+}
+.product-card:hover .product-name-8 a{
+    opacity: 1;
+}
